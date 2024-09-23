@@ -1,0 +1,19 @@
+.tile__container{
+    width:40px;
+    height:40px;
+    border:1px solid green;
+    cursor:pointer;
+    margin:5px;
+  }
+  
+  .tile_4{
+  cursor:none;
+  visibility: hidden;
+  }
+  
+  .green{
+    background-color: green;
+    pointer-events: none;
+    cursor:none;
+  }
+  

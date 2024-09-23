@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react'
-import Tile from './Tile';
-import './tiles.css'
+import React, { useState, useEffect } from 'react';
+import './App.css';
+import { Tile } from './component';
+
 const arr = [...Array(9)];
+
 const App = () => {
   const [selectedTiles, setSelectedTiles] = useState([]);
 
@@ -28,7 +30,7 @@ const App = () => {
   };
 
   return (
-    <div className='main__container'>
+    <div className='main__container'>      
       <div className='tiles__container'>
         {
           arr.map((_, index) => {
