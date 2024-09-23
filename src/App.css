@@ -19,4 +19,6 @@ visibility: hidden;
 
 .green{
   background-color: green;
+  pointer-events: none;
+  cursor:none;
 }

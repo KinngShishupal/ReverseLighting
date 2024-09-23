@@ -21,16 +21,14 @@ const App = () => {
 
     }
 
-  }, [selectedTiles])
-
-
+  }, [selectedTiles]);
 
   const onClickHanlder = (index) => {
     setSelectedTiles(t => [...t, index]);
   };
 
   return (
-    <>
+    <div className='main__container'>
       <div className='tiles__container'>
         {
           arr.map((_, index) => {
@@ -38,7 +36,7 @@ const App = () => {
           })
         }
       </div>
-    </>
+    </div>
   )
 }
 
